@@ -7,7 +7,7 @@
     }
    },
    "cell_type": "markdown",
-   "id": "966b2c3f",
+   "id": "fd7b7401",
    "metadata": {},
    "source": [
     "![image.png](attachment:image.png)"
@@ -32,7 +32,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "09be4b59",
+   "id": "d2edfe57",
    "metadata": {},
    "source": [
     "## **Overview**"
@@ -40,7 +40,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2ffd1591",
+   "id": "a1498633",
    "metadata": {},
    "source": [
     "A fictional person is the head of a new movie studio. They are new to the industry, and have asked for recommendations to help them make successful movies."
@@ -121,7 +121,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "53d9b538",
+   "id": "02ba0815",
    "metadata": {},
    "source": [
     "### **Deliverables**"
@@ -129,7 +129,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6ea49e33",
+   "id": "d858a1eb",
    "metadata": {},
    "source": [
     "- Movie-Production-Business-Analysis repository\n",
@@ -140,7 +140,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "967990e1",
+   "id": "16d54953",
    "metadata": {},
    "source": [
     "## **Phase 2 - TMDB ETL**"
@@ -148,7 +148,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c515b769",
+   "id": "74938e70",
    "metadata": {},
    "source": [
     "### **Objective**"
@@ -156,7 +156,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ba532c70",
+   "id": "79ba4bda",
    "metadata": {},
    "source": [
     "For Phase 2 of the project, the stakeholder realized that there is no financial information included in the **IMDB (Internet Movie Database)** data, e.g. budget or revenue.This will necessary in attempting to analyze which movies are successful.\n",
@@ -166,7 +166,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d8953877",
+   "id": "fab0ba45",
    "metadata": {},
    "source": [
     "### **Specifications**"
@@ -174,7 +174,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5d3de17c",
+   "id": "807f9511",
    "metadata": {},
    "source": [
     "Fortunately, **[The Movie Database (TMDB)](https://www.themoviedb.org/)** offers a free API for programmatic access to their data. "
@@ -182,7 +182,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0867c1b8",
+   "id": "7fdb2607",
    "metadata": {},
    "source": [
     "**1. API Data Extraction**\n",
@@ -200,7 +200,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6873c900",
+   "id": "65fdad92",
    "metadata": {},
    "source": [
     "### **Deliverables**"
@@ -208,7 +208,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d54f86be",
+   "id": "0952a500",
    "metadata": {},
    "source": [
     "- final_tmdb_data_2000.csv.gz\n",
@@ -218,7 +218,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "197be45d",
+   "id": "1e10dae2",
    "metadata": {},
    "source": [
     "## **Phase 3 - MySQL Movie Database ETL**"
@@ -226,7 +226,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0913f818",
+   "id": "8d999e06",
    "metadata": {},
    "source": [
     "### **Objective**"
@@ -234,7 +234,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "eb4ae85e",
+   "id": "117c3e3a",
    "metadata": {},
    "source": [
     "The stakeholder has requested that the data that has been extracted and transformed in Phases 1 & 2 of the project, be utilized to create a MySQL database."
@@ -242,7 +242,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "09505f56",
+   "id": "e83f409f",
    "metadata": {},
    "source": [
     "### **Specifications**"
@@ -250,7 +250,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ca38652d",
+   "id": "14bd5b5c",
    "metadata": {},
    "source": [
     "The tables should be normalized as well as possible prior to adding them to the new database.\n",
@@ -260,7 +260,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "31e3328e",
+   "id": "f1d33021",
    "metadata": {},
    "source": [
     "### **Deliverables**"
@@ -268,7 +268,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9854cd59",
+   "id": "4fa7e493",
    "metadata": {},
    "source": [
     "SQL \"Movies\" database with the following tables:\n",
@@ -281,7 +281,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7a463640",
+   "id": "ade8e2bc",
    "metadata": {},
    "source": [
     "## **Phase 4 - TMDB ETL**"
@@ -289,7 +289,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0f97964a",
+   "id": "3f08e684",
    "metadata": {},
    "source": [
     "### **Objective**"
@@ -297,17 +297,35 @@
   },
   {
    "cell_type": "markdown",
-   "id": "27e44f51",
+   "id": "cd827ba9",
    "metadata": {},
    "source": [
-    "In Phase 2, as a proof-of-concept, the stakeholder requested a test extraction of movies that started in 2000 or 2001. Each year to be saved as a separate .csv.gz file.\n",
-    "In Phase 4, the stakeholder has requested additional years to be extracted.\n",
-    "Years 2000-2021 are to be combined into a single TMDB .csv.gz file."
+    "- In Phase 2, as a proof-of-concept, the stakeholder requested a test extraction of movies that started in 2000 or 2001. Each year to be saved as a separate .csv.gz file.\n",
+    "- In Phase 4, the stakeholder has requested additional years to be extracted, and years 2000-2021 are to be combined into a single TMDB .csv.gz file."
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "f931e8d8",
+   "id": "f8bb41cd",
+   "metadata": {},
+   "source": [
+    "### **Deliverables**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c44ed5cf",
+   "metadata": {},
+   "source": [
+    "- final_tmdb_data_2002.csv.gz\n",
+    "- ...\n",
+    "- final_tmdb_data_2021.csv.gz\n",
+    "- tmdb_results_combined_final_df.csv.gz"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "56537d16",
    "metadata": {},
    "source": [
     "## **Phase 4 - Hypothesis Testing**"
@@ -315,7 +333,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "72c5b6b3",
+   "id": "e7858977",
    "metadata": {},
    "source": [
     "### **Objective**"
@@ -323,7 +341,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fb8b1523",
+   "id": "c45d4ed7",
    "metadata": {},
    "source": [
     "For Phase 4 of the project, the stakeholder has also requested statistical tests to obtain mathematically-supported answers to their questions:\n",
@@ -336,7 +354,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f9e77e49",
+   "id": "f9d7e093",
    "metadata": {},
    "source": [
     "### **Specifications**"
@@ -344,7 +362,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c94d06f5",
+   "id": "16038f78",
    "metadata": {},
    "source": [
     "For each question:\n",
@@ -356,7 +374,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e6f5a15b",
+   "id": "4e8fed6e",
    "metadata": {},
    "source": [
     "### **Questions**"
@@ -364,7 +382,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "9b7df40a",
+   "id": "249cb7c5",
    "metadata": {},
    "source": [
     "#### **Does the MPAA rating of a movie affect how much revenue the movie generates?**"
@@ -372,7 +390,18 @@
   },
   {
    "cell_type": "markdown",
-   "id": "55016b16",
+   "id": "9259e724",
+   "metadata": {},
+   "source": [
+    "- The p-value for the test was 5.504858804917085e-168\n",
+    "- It was < the alpha value of 0.05, so\n",
+    "- A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..\n",
+    "- **The MPAA rating of a movie does affect how much revenue the movie generates.**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9d20ae95",
    "metadata": {},
    "source": [
     "#### **Does the genre of a movie affect how much revenue a movie generates?**"
@@ -380,10 +409,48 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c3966230",
+   "id": "6c3a93a8",
+   "metadata": {},
+   "source": [
+    "- The p-value for the test was 1.760985049928353e-249\n",
+    "- It was < the alpha value of 0.05, so\n",
+    "- A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..\n",
+    "- **The genre of a movie does affect how much revenue a movie generates.**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2127772e",
    "metadata": {},
    "source": [
     "#### **Do movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length?**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "19428476",
+   "metadata": {},
+   "source": [
+    "- The p-value for the test was 2.428023688468123e-11\n",
+    "- It was < the alpha value of 0.05, so\n",
+    "- A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..\n",
+    "- **Movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length.**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3acd4027",
+   "metadata": {},
+   "source": [
+    "[](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b7654f59",
+   "metadata": {},
+   "source": [
+    "[](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)"
    ]
   }
  ],
