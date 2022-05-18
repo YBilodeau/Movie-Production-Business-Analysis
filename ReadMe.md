@@ -1,3 +1,4 @@
+![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/movie%20theatre%20banner.png)
 # **Movie Production Business Analysis**
 - Yvon Bilodeau
 - May 2022
@@ -113,18 +114,19 @@ For each question:
 - It was < the alpha value of 0.05, so
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **The MPAA rating of a movie does affect how much revenue the movie generates.**
-[](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/certification%20vs%20revenue.png)
+![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/certification%20vs%20revenue.png)
+
 
 #### **Does the genre of a movie affect how much revenue a movie generates?**
 - The p-value for the test was 1.760985049928353e-249
 - It was < the alpha value of 0.05, so
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **The genre of a movie does affect how much revenue a movie generates.**
-[](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/genre%20vs%20revenue.png)
+![image]((https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/genre%20vs%20revenue.png)
 
 #### **Do movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length?**
 - The p-value for the test was 2.428023688468123e-11
 - It was < the alpha value of 0.05, so
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **Movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length.**
-[](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)
+![image]((https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)
