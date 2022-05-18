@@ -124,7 +124,7 @@ For each question:
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **The genre of a movie does affect how much revenue a movie generates.**
 
-![image]((https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/genre%20vs%20revenue.png)
+![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/genre%20vs%20revenue.png)
 
 #### **Do movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length?**
 - The p-value for the test was 2.428023688468123e-11
@@ -132,4 +132,4 @@ For each question:
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **Movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length.**
 
-![image]((https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)
+![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)
