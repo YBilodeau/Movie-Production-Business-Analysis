@@ -133,3 +133,18 @@ For each question:
 - **Movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length.**
 
 ![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)
+
+## **Summary and Reccomendations**
+
+**Summary of the hypotheses tests**
+- The MPAA rating of a movie does affect how much revenue the movie generates.
+  - Movies that have an MPAA Rating of PG make the most revenue.
+- The genre of a movie does affect how much revenue a movie generates.
+   - Adventure, Sci-fi, and Action movie genres, in descending order generate the greatest revenue.
+- Movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length.
+
+**Recommendations**
+
+**In order to maximize revenue for a movie, it would be 
+recommended to produce:**
+- _a PG rated, adventure movie with a runtime greater than 2.5 hours._
