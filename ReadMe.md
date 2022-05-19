@@ -115,7 +115,7 @@ For each question:
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **The MPAA rating of a movie does affect how much revenue the movie generates.**
 
-![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/certification%20vs%20revenue.png)
+![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/MPAA%20Rating%20vs%20Revenue.png)
 
 
 #### **Does the genre of a movie affect how much revenue a movie generates?**
@@ -124,7 +124,7 @@ For each question:
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **The genre of a movie does affect how much revenue a movie generates.**
 
-![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/genre%20vs%20revenue.png)
+![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/Movie%20Genre%20vs%20Revenue.png)
 
 #### **Do movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length?**
 - The p-value for the test was 2.428023688468123e-11
@@ -132,7 +132,7 @@ For each question:
 - A statistical significance exists. The null hypothesis is rejected and the alternative is supported that..
 - **Movies that are over 2.5 hours have a significantly different revenue than movies that under 1.5 hours in length.**
 
-![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/runtime%20vs%20revenue.png)
+![image](https://github.com/YBilodeau/Movie-Production-Business-Analysis/blob/main/Images/Movie%20Length%20vs%20Revenue.png)
 
 ## **Summary and Reccomendations**
 
