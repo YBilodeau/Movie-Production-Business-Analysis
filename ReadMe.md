@@ -88,7 +88,7 @@ SQL "Movies" database with the following tables:
 - In Phase 4, the stakeholder has requested additional years to be extracted, and years 2000-2021 are to be combined into a single TMDB .csv.gz file.
 
 ### **Deliverables**
-- final_tmdb_data_2002.csv.gz
+- final_tmdb_data_2000.csv.gz
 - ...
 - final_tmdb_data_2021.csv.gz
 - tmdb_results_combined_final_df.csv.gz
